@@ -1,9 +1,8 @@
 name: fair-tms-mod2
 channels:
   - defaults
-  - conda-forge
 dependencies:
-  - python==3.11.*
+  - python==3.10.*
   
   # General requirements for making plots and managing results
   - pandas==1.*
@@ -12,6 +11,9 @@ dependencies:
   # Requirements for data format descriptions
   - pydantic==1.10.*
   - jsonschema
+  
+  # Requirements for the web API lesson
+  - requests
   
   # Putting Jupyter in this environment
   - jupyterlab
